@@ -14,6 +14,5 @@ spec:
     # the redis-auth secret contains the password value
     - name: redis-auth
   values:
-    #image.repository=docker.bintray.io/jfrog/artifactory-oss
     image:
       repository: docker.bintray.io/jfrog/artifactory-oss
